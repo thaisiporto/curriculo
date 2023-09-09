@@ -73,8 +73,8 @@ div#textHeader h1 {
 
 div#imgHeader img {
     background-color: #fff;
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: solid #fff 5px;
     margin-left: 10px;
@@ -166,8 +166,8 @@ div.tituloIcone {
     padding: 10px;
     background-color: #ffe5ca;
     border-left: 10px solid #f39232;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
+    padding-bottom: 120%;
+    margin-bottom: -120%;
 }
 
 div.tituloIcone h1 {
@@ -201,7 +201,13 @@ div.infos {
 }
 
 div.infos p {
-   font-size: 14px;
+   font-size: 0.9em;
+   text-align: justify;
+}
+
+div.infos p span {
+    font-weight: 500;
+    color: #f39232;
 }
 
 div.item {
@@ -421,6 +427,8 @@ ul#cursosLivres li {
     padding: 20px;
     box-shadow: 0 1px 5px 0 #bdbdbd;
     margin: 10px;
+    color: #424242;
+    font-size: 1.0em;
 }
 
 ul#cursosLivres li:hover {
@@ -485,6 +493,8 @@ div#details h1 {
 div#details p {
     margin: 20px;
     text-align: center;
+    color:#424242;
+    font-size: 1.0em;
 }
 
 div#details a {
