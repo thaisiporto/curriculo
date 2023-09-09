@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(fonts/Metropolis-Medium.otf) format('opentype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(fonts/Metropolis-Light.otf) format('opentype');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(fonts/Metropolis-ExtraLight.otf) format('opentype');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(fonts/Metropolis-Bold.otf) format('opentype');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(fonts/Metropolis-ExtraBold.otf) format('opentype');
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(fonts/Metropolis-Black.otf) format('opentype');
+    font-style: normal;
+    font-weight: 900;;
+}
+
+* {
+    font-family: 'Metropolis', Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 'Metropolis', Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/** HEADER **/
+
+header {
+    border-top: #f39232 10px solid;
+    padding: 50px 0;
+    width: 100%;
+}
+
+div#header {
+    background-color: #424242;
+    height: 90px; /** change **/
+    width: 100%;
+    position: relative;
+}
+
+div#headerContent {
+    text-align: center;
+    width: 90%; /** change **/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+div#headerContent div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#textHeader h2 {
+    background-color: #f39232;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.3em; /** change **/
+    text-transform: uppercase;
+    padding: 7px; /** change **/
+}
+div#textHeader h2 span.break {
+    display: block; /** change **/
+}
+
+div#textHeader h1 {
+    font-weight: 600;
+    padding: 0 0 5px 0; /** change **/
+    font-size: 0.9em; /** change **/
+    color: #fff;
+    text-align: center;
+}
+
+div#imgHeader img {
+    background-color: #fff;
+    width: 100px; /** change **/
+    height: 100px; /** change **/
+    border-radius: 50%;
+    border: solid #fff 5px;
+}
+
+header p#job {
+    padding: 10px; /** change **/
+    font-size: 1.2em; /** change **/
+    color: #f39232;
+    text-align: center;
+    width: 80% - 140px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+/** FIM DA HEADER **/

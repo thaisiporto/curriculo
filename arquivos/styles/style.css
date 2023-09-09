@@ -1,0 +1,500 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'REM', Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/** BODY **/
+
+@media (min-width: 800px) {
+
+    body {
+        width: 800px;
+        margin: auto;
+        box-shadow: 0px 0px 5px 1px #000;
+        background-color: #424242;
+    }
+
+}
+
+/** FIM BODY MOBILE**/
+
+/** HEADER **/
+
+header {
+    border-top: #f39232 10px solid;
+    padding: 40px 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+div#header {
+    background-color: #424242;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+div#headerContent {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+div#headerContent div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#textHeader h2 {
+    background-color: #f39232;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+div#textHeader h1 {
+    font-weight: 500;
+    padding: 10px 30px;
+    font-size: 1.0em;
+    color: #fff;
+    text-align: center;
+}
+
+div#imgHeader img {
+    background-color: #fff;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid #fff 5px;
+    margin-left: 10px;
+}
+
+header p#job {
+    padding: 10px 140px 10px 0;
+    font-size: 1.7em;
+    color: #f39232;
+    text-align: center;
+    width: 80% - 140px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+/** FIM DA HEADER **/
+
+/** HEADER MOBILE**/
+
+
+@media (max-width: 800px) {
+
+    header {
+        padding: 20px 0;
+    }
+
+    div#header {
+        height: 90px;
+    }
+
+    div#headerContent {
+        width: 100%;
+    }
+
+    div#textHeader h2 {
+        font-size: 1.3em;
+        padding: 7px; 
+    }
+    div#textHeader h2 span.break {
+        display: inline;
+    }
+
+    div#textHeader h1 {
+        padding: 0 0 5px 0;
+        font-size: 0.9em;
+    }
+    
+    div#imgHeader img {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    
+    header p#job {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    div#textHeader h2 span.break {
+        display: block;
+    }
+}
+/** FIM HEADER MOBILE**/
+
+main {
+    background-color: #fff;
+}
+
+/** INFOS **/
+div#infos {
+    max-width: 850px;
+    margin: auto;
+    border-top: solid #424242 1px;
+    border-bottom: solid #424242 1px;
+}
+
+section {
+    margin: 0 5%;
+    overflow: hidden;
+}
+
+div.tituloIcone {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    padding: 10px;
+    background-color: #ffe5ca;
+    border-left: 10px solid #f39232;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+div.tituloIcone h1 {
+    text-align: right;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    color: #f39232;
+}
+
+div.bioIco {
+    display: inline-block;
+    width: 40px;
+    float:left;
+    background-color: #f39232;
+    padding: 10px;
+    border-radius: 50% 0 0 50%;
+}
+
+div.bioIco img {
+    width: 37px;
+    margin-left: 5px;
+}
+
+div.infos {
+    display: inline-block;
+    padding: 10px;
+    line-height: 1.4em;
+    color: #424242;
+    font-weight: 300;
+    width: 60%
+}
+
+div.infos p {
+   font-size: 14px;
+}
+
+div.item {
+    padding-bottom: 20px;
+}
+
+
+div.infos h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f39232;
+}
+
+div.hide {
+
+}
+
+/** INFOS MOBILE**/
+@media (max-width: 800px) {
+
+div#infos {
+    min-width:350px;
+    max-width:750px;
+}
+
+section {
+    margin: 10px;
+    overflow: visible;
+}
+
+div.tituloIcone {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border-left: none;
+    height: 40px;
+    border-radius: 0 10px 10px 0;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+div.tituloIcone h1 {
+    text-align: left;
+    line-height: 40px;
+}
+
+div.infos {
+    display: block;
+    width: 90%;
+}
+
+div.bioIco {
+    height: 40px;
+}
+}
+
+/** SKILLS **/
+
+div#skills {
+    padding: 20px 0;
+}
+
+div#skills h1 {
+    background-color: #f39232;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+div.skillsRow {
+    column-count: 2;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+div.skillsPair {
+    column-count: 2;
+}
+
+div.skillTool {
+    text-align: center;
+    vertical-align: top;
+}
+
+div.circle {
+    background-color: #f39232;
+    border-radius: 50%;
+    border: solid 1px #424242;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin: 1px;
+}
+div.circleEmpty {
+    background-color: #fff;
+    border-radius: 50%;
+    border: solid 1px #424242;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin: 1px;
+}
+
+div.iconSkill img {
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+div.iconSkill p {
+    font-size: 0.7em;
+    text-align: center;
+    color: #424242;
+    font-weight: 300;
+}
+
+div.lineGeneral {
+    height: 1px;
+    width: 90%;
+    background-color: #f39232;
+    margin: auto;
+}
+
+div.lineMobile {
+    height: 1px;
+    width: 90%;
+    background-color: #f39232;
+    margin: 20px auto;
+}
+
+@media (max-width: 700px) {
+
+    div.skillsRow {
+        column-count: 1;
+        margin: auto;
+    }
+}
+
+@media (min-width: 700px) {
+
+    div.lineMobile {
+        display: none;
+    }
+}
+
+div#portfolio {
+    background-color: #ffe5ca;
+    padding: 25px 10px;
+    border-bottom: #f39232 solid 10px;
+}
+
+div#portfolio p {
+    color:#424242;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+div#portfolio a {
+    color:#fff;
+    font-size: 1.0em;
+    padding: 5px 10px;
+    background-color: #f39232;
+    text-transform: none;
+    text-decoration: none;
+}
+
+div#portfolio a:hover {
+    text-decoration: underline;
+}
+
+/** CURSOS LIVRES **/
+
+div#cursos {
+    padding: 20px 0;
+}
+    
+div#cursos h1 {
+    background-color: #f39232;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+img.iconesLista1 {
+    width: 20px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+img.iconesLista2 {
+    width: 30px;
+    float: right;
+    padding-left: 10px;
+}
+
+div#multiCert {
+    display: inline;
+}
+
+img.iconesLista2:hover {
+    padding-right: 10px;
+}
+
+span.emAndamento {
+    float: right;
+    padding-left: 10px;
+    color: #bdbdbd;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+ul#cursosLivres li {
+    list-style: none;
+    padding: 20px;
+    box-shadow: 0 1px 5px 0 #bdbdbd;
+    margin: 10px;
+}
+
+ul#cursosLivres li:hover {
+    background-color: #f8f8f8;
+}
+
+@media (min-width: 801px) {
+    div#multiCert br {
+        display: none;
+    }
+    ul#cursosLivres {
+        padding:0 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    img.iconesLista1 {
+        width: 25px;
+    }
+
+    span.texto {
+        display: inline-block;
+        width: 65%;
+    }
+
+    img.iconesLista2 {
+        width: 25px;
+    }
+
+    li#multiCertLi {
+        height: 40px;
+    }
+
+    div#multiCert {
+        display: inline;
+        float: right;
+        position: relative;
+        top: -5px;
+    }
+
+    div#multiCert img.iconesLista2 {
+        width: 25px;
+        padding: 2px;;
+        top: -40px;
+    }
+}
+
+/** CURRICULO DETALHADO **/
+
+div#details {
+    padding: 20px 0;
+}
+    
+div#details h1 {
+    background-color: #f39232;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+div#details p {
+    margin: 20px;
+    text-align: center;
+}
+
+div#details a {
+    padding: 10px;
+    background-color: #f39232;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+div#details a:hover {
+    text-decoration: underline;
+}
