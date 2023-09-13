@@ -102,7 +102,7 @@ header p#job {
     }
 
     div#header {
-        height: 90px;
+        height: 100px;
     }
 
     div#headerContent {
@@ -125,7 +125,7 @@ header p#job {
     div#imgHeader img {
         width: 100px;
         height: 100px;
-        margin-left: 0;
+        margin-left: 10px;
     }
     
     header p#job {
@@ -134,11 +134,12 @@ header p#job {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 440px) {
 
     div#textHeader h2 span.break {
         display: block;
     }
+
 }
 /** FIM HEADER MOBILE**/
 
