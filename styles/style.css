@@ -354,6 +354,8 @@ div.lineMobile {
     }
 }
 
+/** PORTFÓLIO **/
+
 div#portfolio {
     background-color: #ffe5ca;
     padding: 25px 10px;
@@ -375,10 +377,11 @@ div#portfolio a {
     background-color: #f39232;
     text-transform: none;
     text-decoration: none;
+    border-bottom: 3px solid #d6812d
 }
 
 div#portfolio a:hover {
-    text-decoration: underline;
+    background-color: #d6812d;
 }
 
 /** CURSOS LIVRES **/
@@ -494,7 +497,7 @@ div#details p {
     margin: 20px;
     text-align: center;
     color:#424242;
-    font-size: 1.0em;
+    font-size: 0.9em;
 }
 
 div#details a {
@@ -503,8 +506,9 @@ div#details a {
     color: #fff;
     font-weight: 600;
     text-decoration: none;
+    border-bottom: 3px solid #d6812d
 }
 
 div#details a:hover {
-    text-decoration: underline;
+    background-color: #d6812d;
 }
