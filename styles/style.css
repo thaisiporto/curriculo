@@ -148,6 +148,11 @@ main {
     background-color: #fff;
 }
 
+
+iframe#contato {
+    margin: 20px auto;
+}
+
 /** INFOS **/
 div#infos {
     max-width: 850px;
