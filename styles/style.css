@@ -156,13 +156,13 @@ div#infos {
     border-bottom: solid #424242 1px;
 }
 
-div#infos a {
+a#linkContato {
     color: #f39232;
     text-decoration: none;
     font-weight: 500;
 }
 
-div#infos a:hover {
+a#linkContato:hover {
     color: #d6812d;
     text-decoration: underline;
 }
