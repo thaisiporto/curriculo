@@ -148,16 +148,23 @@ main {
     background-color: #fff;
 }
 
-iframe#contato {
-    margin: 40px auto;
-}
-
 /** INFOS **/
 div#infos {
     max-width: 850px;
     margin: auto;
     border-top: solid #424242 1px;
     border-bottom: solid #424242 1px;
+}
+
+div#infos a {
+    color: #f39232;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+div#infos a:hover {
+    color: #d6812d;
+    text-decoration: underline;
 }
 
 section {
