@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'REM', Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/** HEADER **/
+@media screen, print {
+
+header {
+
+    width: 530px;
+    padding: 0;
+}
+
+div#textHeader {
+    float: inline-end;
+    }
+
+div#textHeader h2 {
+    color: #f39232;
+    font-weight: 800;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+div#textHeader h1 {
+    font-weight: 300;
+    font-size: 10pt;
+    color: #424242;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+div#imgHeader img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+div#textHeader p#jobPrint {
+    padding: 5px 0 10px 0;
+    border-bottom: #f39232 3px solid;
+    font-weight: 800;
+    font-size: 16pt;
+    color: #424242;
+    text-transform: uppercase;
+}
+
+header p#job {
+    display: none;
+}
+}
+/** HEADER **/
+
+
+@media screen, print {
+div#infos {
+    width: 100%;
+    padding: 20px;
+}
+div.tituloIcone {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+div.tituloIcone h1 {
+    font-size: 1.0em;
+    text-transform: uppercase;
+    color: #f39232;
+    border-right: 5px solid #f39232;
+}
+
+div.bioIco {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    float:left;
+    background-color: #f39232;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+div.bioIco img {
+    width: 40px;
+}
+
+div.infos {
+    display: inline-block;
+    padding: 10px;
+    line-height: 1.4em;
+    color: #424242;
+    font-weight: 300;
+    width: 60%;
+}
+
+p#contato::after {
+    content: '(48) 98500-3105 / thaisi.porto@gmail.com'
+}
+
+a#linkContato {
+    display: none;
+}
+
+div.infos p {
+   font-size: 0.9em;
+   text-align: justify;
+}
+
+div.infos p span {
+    font-weight: 500;
+    color: #f39232;
+}
+
+div.item {
+    padding-bottom: 20px;
+}
+
+div.infos h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f39232;
+}
+}

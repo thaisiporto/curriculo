@@ -33,6 +33,10 @@ header {
     background-color: #eee;
 }
 
+header p#jobPrint {
+    display:none;
+}
+
 div#header {
     background-color: #424242;
     height: 100px;
