@@ -9,11 +9,16 @@
     margin: 0;
 }
 
+body{
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+  }
+
 /** HEADER **/
 @media screen, print {
 
 header {
-
+    margin: 20px 0 50px 20px;
     width: 530px;
     padding: 0;
 }
@@ -56,49 +61,47 @@ header p#job {
     display: none;
 }
 }
-/** HEADER **/
 
 
+/** INFOS **/
 @media screen, print {
 div#infos {
     width: 100%;
     padding: 20px;
+    border-top: 2px dotted #a7a7a7;
+    border-bottom: 2px dotted #a7a7a7;
+    page-break-after: always;
+
 }
 div.tituloIcone {
     display: inline-block;
     width: 15%;
     vertical-align: top;
-    padding: 10px;
 }
 
 div.tituloIcone h1 {
+    text-align: right;
     font-size: 1.0em;
     text-transform: uppercase;
     color: #f39232;
-    border-right: 5px solid #f39232;
+    border-right: 1px solid #424242;
+    padding: 20px 10px 20px 0;
+    margin: 20px 10px 20px 0;
 }
 
 div.bioIco {
-    display: inline;
-    width: 40px;
-    height: 40px;
-    float:left;
-    background-color: #f39232;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-div.bioIco img {
-    width: 40px;
+    display: none;
 }
 
 div.infos {
+    font-size: 12pt;
     display: inline-block;
-    padding: 10px;
     line-height: 1.4em;
     color: #424242;
     font-weight: 300;
-    width: 60%;
+    width: 70%;
+    padding: 20px 10px;
+
 }
 
 p#contato::after {
@@ -127,5 +130,81 @@ div.infos h2 {
     font-size: 14px;
     text-transform: uppercase;
     border-bottom: 2px solid #f39232;
+}
+}
+
+@media screen, print {
+div#skills {
+    padding: 50px 0;
+}
+
+div#skills h1 {
+    background-color: #f39232;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+div.skillsRow {
+    column-count: 2;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+div.skillsPair {
+    column-count: 2;
+}
+
+div.skillTool {
+    text-align: center;
+    vertical-align: top;
+}
+
+div.circle {
+    background-color: #f39232;
+    border-radius: 50%;
+    border: solid 1px #424242;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin: 1px;
+}
+div.circleEmpty {
+    background-color: #fff;
+    border-radius: 50%;
+    border: solid 1px #424242;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin: 1px;
+}
+
+div.iconSkill img {
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+div.iconSkill p {
+    font-size: 0.7em;
+    text-align: center;
+    color: #424242;
+    font-weight: 300;
+}
+
+div.lineGeneral {
+    height: 1px;
+    width: 90%;
+    background-color: #f39232;
+    margin: auto;
+}
+
+div.lineMobile {
+    height: 1px;
+    width: 90%;
+    background-color: #f39232;
+    margin: 20px auto;
 }
 }

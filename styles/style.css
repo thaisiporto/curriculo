@@ -183,8 +183,8 @@ div.tituloIcone {
     padding: 10px;
     background-color: #ffe5ca;
     border-left: 10px solid #f39232;
-    padding-bottom: 120%;
-    margin-bottom: -120%;
+    padding-bottom: 150%;
+    margin-bottom: -150%;
 }
 
 div.tituloIcone h1 {
