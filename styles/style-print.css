@@ -70,7 +70,7 @@ div#infos {
     padding: 20px;
     border-top: 2px dotted #a7a7a7;
     border-bottom: 2px dotted #a7a7a7;
-    page-break-after: always;
+    break-after: always;
 
 }
 div.tituloIcone {
@@ -133,17 +133,18 @@ div.infos h2 {
 }
 }
 
+/** SKILLS **/
 @media screen, print {
 div#skills {
     padding: 50px 0;
 }
 
 div#skills h1 {
-    background-color: #f39232;
-    color: #fff;
+    color: #f39232;
     font-size: 1.5em;
     padding: 10px 30px;
     text-transform: uppercase;
+    
 }
 
 div.skillsRow {
@@ -202,9 +203,62 @@ div.lineGeneral {
 }
 
 div.lineMobile {
-    height: 1px;
-    width: 90%;
-    background-color: #f39232;
-    margin: 20px auto;
+    display: none;
 }
+
+div#portfolio {
+    display:none;
+}
+}
+
+/** CURSOS **/
+@media screen, print {
+    div#cursos {
+        padding: 20px 0;
+        border-top: 2px dotted #a7a7a7;
+    }
+        
+    div#cursos h1 {
+        color: #f39232;
+        font-size: 1.5em;
+        padding: 10px 30px;
+        text-transform: uppercase;
+    }
+    
+    img.iconesLista1 {
+        width: 20px;
+        vertical-align: top;
+        padding-right: 10px;
+    }
+    img.iconesLista2, div#multiCert {
+        display:none;
+    }
+
+    span.emAndamento {
+        float: right;
+        padding-left: 10px;
+        color: #bdbdbd;
+        font-weight: 600;
+        font-size: 0.8em;
+    }
+    
+    ul#cursosLivres li {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+        color: #424242;
+        font-size: 13pt;
+        border-bottom: 1px solid #dadada;
+    }
+
+    ul#cursosLivres{
+        break-after: avoid;
+        border-bottom: 2px dotted #a7a7a7;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+
+    div#details {
+        display:none;
+    }
 }
