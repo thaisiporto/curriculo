@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/** HEADER MOBILE**/
+
+header {
+    padding: 20px 0 5px 0;
+}
+
+div#header {
+    height: 80px;
+}
+
+div#headerContent {
+    width: 100%;
+}
+
+div#textHeader h2 {
+    font-size: 1.3em;
+    padding: 7px; 
+}
+
+div#textHeader h2 span.break {
+    display: inline;
+}
+
+div#textHeader h1 {
+    padding: 0 0 5px 0;
+    font-size: 0.9em;
+}
+
+div#imgHeader img {
+    width: 100px;
+    height: 100px;
+}
+
+header p#job {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+
+div#textHeader h2 span.break {
+    display: none;
+}
+
+
+/** INFOS MOBILE**/
+
+div#infos {
+    min-width:350px;
+    max-width:750px;
+}
+
+section {
+    margin: 10px;
+    overflow: visible;
+}
+
+div.tituloIcone {
+    width: calc(100% - 80px);
+    border-left: none;
+    height: 60px;
+    border-radius: 0 10px 10px 0;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+div.bioIco {
+    height: 40px;
+    margin-left:10px;
+}
+
+div.tituloIcone h1 {
+    text-align: left;
+    line-height: 40px;
+}
+
+div.infos {
+    display: block;
+    width: 90%;
+}
+
+/** SKILLS **/
+
+@media (min-width: 700px) {
+
+    div.lineMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+
+    div.skillsRow {
+        column-count: 1;
+        margin: auto;
+    }
+}
+
+div.lineMobile {
+    height: 1px;
+    width: 90%;
+    background-color: #f39232;
+    margin: 20px auto;
+}
+
+/** PORTFÓLIO **/
+@media (max-width: 420px) {
+div#portfolio p {
+    line-height: 1.6em;
+    padding-bottom: 20px;
+}
+}
+
+/** CURSOS LIVRES **/
+
+img.iconesLista1 {
+    width: 25px;
+}
+
+span.texto {
+    display: inline-block;
+    width: 65%;
+}
+
+img.iconesLista2 {
+    width: 25px;
+}
+
+li#multiCertLi {
+    height: 40px;
+}
+
+div#multiCert {
+    float: right;
+    position: relative;
+    top: -5px;
+}
+
+div#multiCert img.iconesLista2 {
+    width: 25px;
+    padding: 2px;;
+    top: -40px;
+}

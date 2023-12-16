@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'REM', Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/** HEADER **/
+
+div#textHeader h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/** MAIN **/
+main {
+    background-color: #fff;
+}
+
+/** INFOS **/
+div.tituloIcone {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.tituloIcone h1 {
+    text-align: right;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    color: #f39232;
+}
+
+div.infos {
+    line-height: 1.4em;
+    color: #424242;
+    font-weight: 300;
+}
+
+div.infos p {
+    text-align: justify;
+}
+
+div.infos p span {
+    font-weight: 500;
+    color: #f39232;
+}
+
+div.item {
+    padding-bottom: 20px;
+}
+
+div.infos h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f39232;
+}
+
+/** SKILLS **/
+div#skills h1 {
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+div.skillsRow {
+    column-count: 2;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+div.skillsPair {
+    column-count: 2;
+}
+
+div.skillTool {
+    text-align: center;
+    vertical-align: top;
+}
+
+div.circle {
+    background-color: #f39232;
+    border-radius: 50%;
+    border: solid 1px #424242;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin: 1px;
+}
+div.circleEmpty {
+    background-color: #fff;
+    border-radius: 50%;
+    border: solid 1px #424242;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin: 1px;
+}
+
+div.iconSkill img {
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+div.iconSkill p {
+    text-align: center;
+    color: #424242;
+    font-weight: 300;
+}
+
+div.lineGeneral {
+    height: 1px;
+    width: 90%;
+    background-color: #f39232;
+    margin: auto;
+}
+
+/** CURSOS **/
+div#cursos {
+    padding: 20px 0;
+}
+
+div#cursos h1 {
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+img.iconesLista1 {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+span.emAndamento {
+    float: right;
+    padding-left: 10px;
+    color: #bdbdbd;
+    font-weight: 600;
+}
+
+ul#cursosLivres li {
+    list-style: none;
+    margin: 10px;
+    color: #424242;
+}
