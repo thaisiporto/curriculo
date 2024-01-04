@@ -133,6 +133,10 @@ img.iconesLista1 {
     padding-right: 10px;
 }
 
+span.nomeCurso {
+    font-size: 0.7em;
+}
+
 span.emAndamento {
     float: right;
     padding-left: 10px;
